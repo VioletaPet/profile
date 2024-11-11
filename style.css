@@ -1,0 +1,162 @@
+body {
+  background-color: #FAF6F0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: Raleway, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 3px;
+}
+
+.heading {
+  color: #FAF6F0;
+  background-color: #3C552D;
+  padding: 0.1px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  opacity: 0.8;
+  text-align: center;
+  font-size: 1.7em;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 20px;
+  margin: 20px;
+  align-items: start;
+}
+
+.right_column {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+}
+
+.right_column p {
+  margin-top: 4px;
+  margin-bottom: 20px;
+}
+
+#potatoes {
+  margin-top: 0px;
+  width: 800px;
+  height: 180px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  opacity: 0.91;
+}
+
+.song_line {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+.learning_line {
+  font-size: 0.9em;
+}
+
+.video {
+  height: 400px;
+  width: 600px;
+  border-radius: 10px;
+}
+
+.left_column {
+  margin-left: 18px;
+  text-align: center;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+#profile_pic {
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  height: auto;
+  width: 100%;
+}
+
+.btn_red {
+  background-color: #E60F05;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 8px;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 50px;
+  font-size: 0.7em;
+}
+
+.btn_red:hover {
+  background-color: #CC0D04;
+}
+
+.plan_block {
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+  font-size: 2em;
+}
+
+#dog_pic {
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.list-inline{
+  padding: 0px;
+}
+
+.list-inline li a {
+  :hover {
+    color: #007EFC;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .introduction_block {
+    width: 700px;
+  }
+  .plan_block {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .introduction_block {
+    width: 500px;
+  }
+  .plan_block {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .introduction_block {
+    width: 300px;
+  }
+  .plan_block {
+    width: 300px;
+  }
+}
